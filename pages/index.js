@@ -28,6 +28,17 @@ export default function Home({ allPostsData }) {
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
+        <p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ccSejkELhKY?si=h4RhZzBq-Nk6A1hG"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
